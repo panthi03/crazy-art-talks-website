@@ -1,0 +1,111 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+@media (max-width: 700px) {
+    .menu {   
+    flex-direction: column;
+    }
+}
+
+body{
+    background-color: darkmagenta;
+}
+#title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:blanchedalmond;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(44, 0, 76);
+    border-style: none;
+    border-radius: 15px;
+}
+
+.menu{
+    display:flex;
+    border-style: outset;
+    border-radius: 15px;
+    border-color:coral;
+    background-color:rgb(246, 223, 51);
+}
+
+.menu a{
+    color:rgb(44, 0, 76);
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover{
+    background-color: lemonchiffon;
+}
+
+.centre{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    color: white;
+}
+
+
+.gallery{
+    border: 2px;
+    border-style: solid;
+    border-color: indigo;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.description{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.responsive{
+    float:left;
+    width:25%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive{
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive{
+        width: 100%;
+    }
+}
+
+footer{
+    /* color: blanchedalmond; */
+    padding: 2px;
+    background-color: yellow;
+    border-style: outset;
+    border-color: coral;
+    border-radius: 15px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;}
+
+.heading{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(44, 0, 76);
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px;
+}
